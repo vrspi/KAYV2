@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CHATKAY | Direct Messaging</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'><link rel="stylesheet" href="/static/style.css">
+<style>
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+</style>
+</head>
+<body style="display: flex; justify-content: center; align-items: center;height: 100vh;">
+<!-- partial:index.partial.html -->
+<div class="center">
+  <div class="chat" style="justify-content:start !important">
+    <div class="contact bar">
+      <div class="pic stark"></div>
+      <div class="name">
+        CHATKAY :
+      </div>
+      <div class="seen">
+        Today at 12:56
+      </div>
+     </div>
+     <div class="messages" style="height: 500px;" id="chat">
+      <div class="time">
+        Today at 11:41
+      </div>
+      <!-- <div class="message parker">
+        Hey, man! What's up? 👋
+      </div>
+      <div class="message stark">
+        Kid, where'd you come from? 
+      </div> -->
+      <!-- <div class="message parker">
+        Field trip! 🤣
+      </div>
+      <div class="message parker">
+        Uh, what is this guy's problem, Mr. Stark? 🤔
+      </div>
+      <div class="message stark">
+        Uh, he's from space, he came here to steal a necklace from a wizard.
+      </div> -->
+      <!-- <div class="message stark">
+        <div class="typing typing-1"></div>
+        <div class="typing typing-2"></div>
+        <div class="typing typing-3"></div>
+      </div> -->
+    </div>
+    <div class="input">
+      <i class="fas fa-camera"></i><i class="far fa-laugh-beam"></i><input id="mymessage" placeholder="Type your message here!" type="text" /><i class="fas fa-share"></i>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="/static/script.js"></script>
+  <script>
+
+          $(document).ready(function () {
+            // alert("document ready");
+            $('.fas.fa-share').click(function(event) {
+              
+              // alert()
+              sendMessage($('#mymessage').val());
+    
+            });
+
+            $('#mymessage').keypress(function(event) {
+              if (event.which === 13) {
+                sendMessage($('#mymessage').val());
+              }
+            });   
+     });
+
+        function sendMessage(message) {
+            $.ajax({
+                url: '/api/msg/local', // Replace with your actual API endpoint URL
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ 'message': message }),
+                success: function (response) {
+                    displayMessage('User', message);
+                    setTimeout(function() {
+                      // Code to generate the chatbot's response
+                      $("#typing").remove();
+                      displayMessage('Chatbot', response.message);
+                      // displayMessage('Chatbot', response);
+                    }, 2000); // Delay of 2000 milliseconds (2 seconds)
+                                      
+                }
+            });
+        }
+
+        function displayMessage(sender, message) {
+            var chatContainer = $(".messages");
+            if(sender=='User'){
+              chatContainer.append('<div class="message parker">' + message + '</div>');
+              var chatContainer = $(".messages");
+              chatContainer.append('<div id="typing" class="message stark"><div class="typing typing-1"></div><div class="typing typing-2"></div><div class="typing typing-3"></div></div>');
+                      
+            }
+         
+            else{
+              chatContainer.append('<div class="message stark">' + message.replace('\n', '<br>') + '</div>');
+            }
+            chatContainer.scrollTop(chatContainer[0].scrollHeight - chatContainer.height());
+            $("#mymessage").val("").focus();
+
+        }
+  </script>
+</body>
+</html>

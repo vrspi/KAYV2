@@ -1,0 +1,272 @@
+{
+  "intents": [
+    {
+      "tag": "Opening Hours",
+      "patterns": [
+        "What are the opening hours?",
+        "When are you open?",
+        "What are your hours of operation?"
+      ],
+      "responses": [
+        "Our opening hours during summer are from Monday to Thursday, 9:30 AM to 3:30 PM. but on Fridays,we are open from 9:30 AM to 1:00 PM.",
+        "Our opening hours during summer are from Monday to Thursday, 9:30 AM to 3:30 PM. On Fridays, we are open from 9:30 AM to 1:00 PM."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Social Media",
+      "patterns": [
+        "Do you have social media accounts?",
+        "What are your social media handles?",
+        "Can I find you on social media?"
+      ],
+      "responses": [
+        "Yes, you can follow us on EheiOujda and find us at @eheioujda.",
+        "Connect with us on social media! You can find us as EheiOujda and @eheioujda."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "Integrated Preparatory Cycle",
+      "patterns": [
+        "What is the Integrated Preparatory Cycle (CPI)?",
+        "Tell me about the CPI program.",
+        "What is the objective of the CPI?"
+      ],
+      "responses": [
+        "The Integrated Preparatory Cycle (CPI) is a two-year training program designed to prepare students for the engineering cycle. Its main objective is to provide students with a solid foundation in engineering sciences and prepare them for engineering careers through innovative and personalized training that allows them to unleash their potential and develop their skills, while being oriented towards the business world."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Objectives",
+      "patterns": [
+        "What are the objectives of the CPI?",
+        "What will I learn in the CPI?",
+        "Tell me about the goals of the CPI."
+      ],
+      "responses": [
+        "The objectives of the CPI are:\n- To provide students with fundamental knowledge of engineering disciplines and technologies.\n- To develop work methodologies, analysis skills, learning abilities, and critical thinking.\n- To gradually build an individual and professional project.\n- To introduce students to collaborative work.\n- To enhance proficiency in written and oral communication in both French and English."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Admission Requirements",
+      "patterns": [
+        "What are the admission requirements for the CPI?",
+        "How can I join the CPI program?",
+        "What qualifications do I need for the CPI?"
+      ],
+      "responses": [
+        "The CPI is open to holders of a scientific or technical baccalaureate."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Required Specializations",
+      "patterns": [
+        "What specializations are required for the CPI?",
+        "Which subjects should I have studied for the CPI?",
+        "Tell me about the required disciplines for the CPI."
+      ],
+      "responses": [
+        "The required specializations for the CPI include:\n- Life and Earth Sciences.\n- Physical Sciences.\n- Mathematics A.\n- Mathematics B.\n- Agronomic Sciences.\n- Electrical Sciences and Technologies.\n- Mechanical Sciences and Technologies.\n- Scientific and technical foreign baccalaureates or equivalent.\n- Professional baccalaureates."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Eligibility Test",
+      "patterns": [
+        "What is the eligibility test?",
+        "How can I qualify for EHEI?",
+        "Tell me about the admission test."
+      ],
+      "responses": [
+        "To be eligible for EHEI, you must pass the admission test, which consists of questions assessing your basic knowledge in mathematics and physics."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "Computer Engineering",
+      "patterns": [
+        "What is Computer Engineering?",
+        "Tell me about the Computer Engineering program.",
+        "What do Computer Engineers do?"
+      ],
+      "responses": [
+        "The Computer Engineering program trains highly skilled engineers who are quickly operational and capable of designing and managing computer platforms in companies. They contribute to the management of large projects or the development of innovative technologies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Objectives",
+      "patterns": [
+        "What are the objectives of the Computer Engineering program?",
+        "What will I learn in Computer Engineering?",
+        "Tell me about the goals of the program."
+      ],
+      "responses": [
+        "The objective of the Computer Engineering program is to provide students with comprehensive training on the tools and methods used in software engineering, enabling them to design, model, and analyze information systems within an organization. This program also offers students in Computer Engineering an opportunity to learn about operating systems, computer networks, and information security, thereby increasing their chances of easily integrating into the workforce."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Training Domains",
+      "patterns": [
+        "What are the training domains in Computer Engineering?",
+        "Tell me about the areas of specialization in Computer Engineering.",
+        "What subjects will I study in Computer Engineering?"
+      ],
+      "responses": [
+        "The training domains in Computer Engineering include:\n- Algorithm and Logic.\n- Desktop Development.\n- Web Development.\n- Mobile Development.\n- Back-end and Front-end Frameworks.\n- .NET Development.\n- Software Quality.\n- Analysis and Design.\n- Big Data and Business Intelligence.\n- Operating Systems.\n- Networks.\n- Embedded Systems."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "Founder's Message",
+      "patterns": [
+        "What is the message from the founder?",
+        "Tell me about the founder of EHEI.",
+	" what's Mr Barboucha Mohammed message",
+	"what is the message of Mohammed Barboucha",
+	"what's barboucha's message",
+        "What does the founder say?"
+      ],
+      "responses": [
+        "The founder of EHEI expresses the importance of Moroccan higher education institutions playing a role in effectively integrating the country into the international economic community. Their experience in setting up, monitoring, and managing technological and vocational higher education institutions, as well as their dedication to the socio-economic development of the Oriental region of the Moroccan kingdom, led them to create a leading engineering school that serves as a center of excellence in Moroccan private higher education. The founder acknowledges the challenges such as global economic competitiveness, volatile technological, economic, and financial markets, brain drain to industrialized countries, rapid technological innovations, and widespread use of new information and communication technologies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Founder's Background",
+      "patterns": [
+        "Tell me about the background of the founder.",
+        "What is the educational background of the founder?",
+        "Who is M. BARBOUCHA Mohammed?"
+      ],
+      "responses": [
+        "M. BARBOUCHA Mohammed is the President and Founder of EHEI. He holds a Ph.D. in Automatics and Industrial Computing from the University of Sciences and Technologies of Lille, France.",
+	"Mohammed Barboucha is the President and Founder of EHEI. He obtained his Ph.D. in Automatics and Industrial Computing from the University of Sciences and Technologies of Lille, France.",
+	"Mohammed Barboucha is the President and Founder of EHEI. He has a Ph.D. in Automatics and Industrial Computing from the University of Sciences and Technologies of Lille, France."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Contact Information",
+      "patterns": [
+        "How can I contact EHEI?",
+        "What is EHEI contact information?",
+        "Do EHEI have an email or phone number?"
+      ],
+      "responses": [
+        "You can contact us at ehei.oujda@gmail.com or call us at +212536533076.",
+        "For any inquiries, feel free to reach out to us at ehei.oujda@gmail.com or call us at +212536533076."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "Competitiveness in Higher Education",
+      "patterns": [
+        "What are the dangers of competitiveness in higher education?",
+        "How does competitiveness affect higher education institutions?",
+        "Tell me about the challenges faced by higher education institutions in a competitive environment."
+      ],
+      "responses": [
+        "Competitiveness in higher education poses challenges for institutions, such as coping with the competitiveness of major economic powers, dealing with the volatility of international technological, economic, and financial markets, preventing brain drain of top talents to industrialized countries, keeping up with the rapid pace of technological innovations, and adapting to the widespread use of new information and communication technologies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EHEI's Role",
+      "patterns": [
+        "What is the role of EHEI?",
+        "How does EHEI contribute to the socio-economic development?",
+        "Tell me about the impact of EHEI in the Oriental region of Morocco."
+      ],
+      "responses": [
+        "EHEI aims to be a leading engineering school that plays a crucial role in the socio-economic development of the Oriental region of Morocco. By offering comprehensive education in engineering and providing innovative and personalized training, EHEI prepares students to become highly skilled and capable engineers, ready to contribute to the management of large-scale projects and the development of innovative technologies in companies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Global Integration",
+      "patterns": [
+        "Why is the successful integration of Morocco with the rest of the world important?",
+        "What are the benefits of Morocco's global integration?",
+        "Tell me about the challenges and opportunities of Morocco's integration into the international community."
+      ],
+      "responses": [
+        "Successful integration of Morocco with the rest of the world is essential for the country's progress. It helps counter the dangers of economic competitiveness from major global powers, leverage opportunities in international technological, economic, and financial markets, retain and nurture top talents within the country, adapt to rapid technological advancements, and embrace the widespread use of new information and communication technologies."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "EHEIO Objectives",
+      "patterns": [
+        "What are the strategic objectives of EHEIO?",
+        "Tell me about the goals of EHEIO.",
+        "What is the purpose of EHEIO?"
+      ],
+      "responses": [
+        "EHEIO has strategic objectives that include: valorizing existing university programs such as DEUG, Licences, and DUT; meeting the needs of the regional and national socio-economic actors; supporting offshoring activities; addressing the employment market demands by training practical engineers in technological and industrial fields; implementing a consistent and structured pedagogical policy; establishing modern educational and administrative structures; integrating the institution into the socio-economic environment through interface structures; strengthening national and international relationships and fostering cooperation with similar schools, especially in the Maghreb region; promoting social, cultural, and sports activities to instill citizenship and universal democratic values; implementing a culture of evaluation at all organizational levels; contributing to the development and collaboration of public and private institutions in the Oriental region."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EHEIO Programs",
+      "patterns": [
+        "What programs does EHEIO offer?",
+        "Tell me about the engineering programs at EHEIO.",
+        "What are the specializations available at EHEIO?"
+      ],
+      "responses": [
+        "EHEIO offers a five-year engineering program, including a two-year preparatory cycle and a three-year engineering cycle. The three specializations available are: Génie Informatique (GI) - Computer Engineering, Informatique et Gestion (IG) - Computer Science and Management, and Génie des Systèmes Industriels (GSI) - Industrial Systems Engineering. The curriculum includes fundamental scientific and technical education in subjects such as mathematics, physics, technology, and computer science, as well as humanistic education covering languages, communication techniques, and expression."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "EHEIO Introduction",
+      "patterns": [
+        "What is EHEIO?",
+	"What are EHEIO?",
+	"What EHEIO?",
+        "What is EHEI?",
+	"What are EHEI?",
+	"What EHEI?", 
+        "Ecole des Hautes Etudes d'Ingenieurs de l'Oriental",
+	"EHEI ?",
+	"EHEIO ?",       
+	"Tell me about EHEIO.",
+        "Introduce EHEIO to me."
+      ],
+      "responses": [
+        "EHEIO (École des Hautes Études d'Ingénieurs de l'Oriental) is a multidisciplinary engineering school specializing in cutting-edge technologies. It aims to achieve the following strategic objectives: \n\n- Valorize various university programs, including DEUG, Licences, DUT, post-secondary programs, BTS, ISTA diplomas, and private accredited institutions. \n- Address the aspirations of regional and national socio-economic actors. \n- Support the offshoring sector. \n- Meet the employment market needs by training practical engineers in technological and industrial fields. \n\nEHEIO offers a comprehensive five-year engineering program, which includes a two-year preparatory cycle and a three-year cycle in the following specializations: Génie Informatique (GI), Informatique et Gestion (IG), and Génie des Systèmes Industriels (GSI)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EHEIO Preparatory Cycle",
+      "patterns": [
+        "What is the preparatory cycle at EHEIO?",
+        "Tell me about the first two years at EHEIO.",
+        "What subjects are covered in the preparatory cycle?"
+      ],
+      "responses": [
+        "The preparatory cycle at EHEIO spans two years and aims to provide students with a strong foundation in science, technology, and humanistic education. The subjects covered include mathematics, physics, technology, and computer science. Additionally, students receive training in languages, communication techniques, and expression to develop their overall skills."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EHEIO Engineering Specializations",
+      "patterns": [
+        "What are the engineering specializations at EHEIO?",
+        "Tell me about the different programs offered at EHEIO.",
+        "What fields of engineering can I specialize in at EHEIO?"
+      ],
+      "responses": [
+        "EHEIO offers three specialization options for the three-year engineering cycle:\n\n1. Génie Informatique (GI) - Specialization in Computer Engineering\n2. Informatique et Gestion (IG) - Specialization in Computer Science and Management\n3. Génie des Systèmes Industriels (GSI) - Specialization in Industrial Systems Engineering\n\nThese programs provide comprehensive training in their respective fields, equipping students with the knowledge and skills necessary for successful careers in the industry."
+      ],
+      "context": [""]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "intents": [
+   {
+  "tag": "C# Reverse String",
+  "patterns": [
+    "how to reverse a string in c#",
+    "reverse a string in c#",
+    "how to write a function to reverse a string in c#"
+  ],
+  "responses": [
+    {
+	 "string ReverseString(string input) { char[] chars = input.ToCharArray(); Array.Reverse(chars); return new string(chars); }"
+    }
+  ]
+},
+{
+  "tag": "C# Sort List Of Items",
+  "patterns": [
+    "how to sort a list of items in c#",
+    "sort a list of items in c#",
+    "how to write a function to sort a list of items in c#"
+  ],
+  "responses": [
+    {
+	 "void SortListOfItems(List<string> items) { items.Sort(); }"
+    }
+  ]
+},
+{
+  "tag": "C# Find Maximum Value In List",
+  "patterns": [
+    "how to find the maximum value in a list in c#",
+    "find the maximum value in a list in c#",
+    "how to write a function to find the maximum value in a list in c#"
+  ],
+  "responses": [
+    {
+	 "int FindMaximumValueInList(List<int> numbers) { int max = numbers[0]; foreach (int number in numbers) { if (number > max) { max = number; } } return max; }"
+    }
+  ]
+},
+{
+  "tag": "C# Find Minimum Value In List",
+  "patterns": [
+    "how to find the minimum value in a list in c#",
+    "find the minimum value in a list in c#",
+    "how to write a function to find the minimum value in a list in c#"
+  ],
+  "responses": [
+    {
+	 "int FindMinimumValueInList(List<int> numbers) { int min = numbers[0]; foreach (int number in numbers) { if (number < min) { min = number; } } return min; }"
+    }
+  ]
+},
+
+{
+  "tag": "C# Check If String Is Palindrome",
+  "patterns": [
+    "how to check if a string is a palindrome in c#",
+    "check if a string is a palindrome in c#",
+    "how to write a function to check if a string is a palindrome in c#"
+  ],
+  "responses": [
+    {
+	 "bool CheckIfStringIsPalindrome(string input) { bool isPalindrome = true; for (int i = 0; i < input.Length / 2; i++) { if (input[i] != input[input.Length - 1 - i]) { isPalindrome = false; break; } } return isPalindrome; }"
+    }
+  ]
+}
+
+  ]
+}

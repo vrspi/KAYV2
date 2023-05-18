@@ -1,0 +1,1904 @@
+{
+    "intents": [
+        {
+            "tag": "python create class",
+            "patterns": [
+                "how to create class in python",
+                "class in python",
+                "instantiate python class "
+            ],
+            "responses": [
+                "class myclass:"
+            ]
+        },
+{
+            "tag": "C# Equals",
+            "patterns": [
+                "how to check if two variables are equal in c#",
+                "equals in c#",
+                "check equality in c#"
+            ],
+            "responses": [
+                "bool isEqual = a == b;"
+            ]
+        },
+        {
+            "tag": "C# Not Equals",
+            "patterns": [
+                "how to check if two variables are not equal in c#",
+                "not equals in c#",
+                "check inequality in c#"
+            ],
+            "responses": [
+                "bool isNotEqual = a != b;"
+            ]
+        },
+        {
+            "tag": "C# Greater Than",
+            "patterns": [
+                "how to check if one variable is greater than another in c#",
+                "greater than in c#",
+                "check greater than in c#"
+            ],
+            "responses": [
+                "bool isGreaterThan = a > b;"
+            ]
+        },
+        {
+            "tag": "C# Greater Than or Equal To",
+            "patterns": [
+                "how to check if one variable is greater than or equal to another in c#",
+                "greater than or equal to in c#",
+                "check greater than or equal to in c#"
+            ],
+            "responses": [
+                "bool isGreaterThanOrEqualTo = a >= b;"
+            ]
+        },
+        {
+            "tag": "C# Less Than",
+            "patterns": [
+                "how to check if one variable is less than another in c#",
+                "less than in c#",
+                "check less than in c#"
+            ],
+            "responses": [
+                "bool isLessThan = a < b;"
+            ]
+        },
+{
+            "tag": "C# And",
+            "patterns": [
+                "how to check if two conditions are true in c#",
+                "and in c#",
+                "check and in c#"
+            ],
+            "responses": [
+                "bool andResult = isTrue && isFalse;"
+            ]
+        },
+        {
+            "tag": "C# Or",
+            "patterns": [
+                "how to check if one condition is true or another in c#",
+                "or in c#",
+                "check or in c#"
+            ],
+            "responses": [
+                "bool orResult = isTrue || isFalse;"
+            ]
+        },
+        {
+            "tag": "C# Not",
+            "patterns": [
+                "how to check if a condition is not true in c#",
+                "not in c#",
+                "check not in c#"
+            ],
+            "responses": [
+                "bool notResult = !isTrue;"
+            ]
+        },
+        {
+            "tag": "C# Conditional",
+            "patterns": [
+                "how to use a conditional statement in c#",
+                "conditional in c#",
+                "use conditional in c#"
+            ],
+            "responses": [
+                "int result = isTrue ? 1 : 0;"
+            ]
+        },
+        {
+            "tag": "C# Switch",
+            "patterns": [
+                "how to use a switch statement in c#",
+                "switch in c#",
+                "use switch in c#"
+            ],
+            "responses": [
+                "switch (a) { case 1: Console.WriteLine(\"a is 1\"); break; case 2: Console.WriteLine(\"a is 2\"); break; default: Console.WriteLine(\"a is not 1 or 2\"); break; }"
+            ]
+        },
+{
+            "tag": "C# While",
+            "patterns": [
+                "how to use a while loop in c#",
+                "while loop in c#",
+                "use while loop in c#"
+            ],
+            "responses": [
+                "int i = 0; while (i < 10) { Console.WriteLine(i); i++; }"
+            ]
+        },
+        {
+            "tag": "C# Do While",
+            "patterns": [
+                "how to use a do while loop in c#",
+                "do while loop in c#",
+                "use do while loop in c#"
+            ],
+            "responses": [
+                "int j = 0; do { Console.WriteLine(j); j++; } while (j < 10);"
+            ]
+        },
+        {
+            "tag": "C# For",
+            "patterns": [
+                "how to use a for loop in c#",
+                "for loop in c#",
+                "use for loop in c#"
+            ],
+            "responses": [
+                "for (int k = 0; k < 10; k++) { Console.WriteLine(k); }"
+            ]
+        },
+        {
+            "tag": "C# For Each",
+            "patterns": [
+                "how to use a for each loop in c#",
+                "for each loop in c#",
+                "use for each loop in c#"
+            ],
+            "responses": [
+                "string[] names = { \"John\", \"Mary\", \"Peter\" }; foreach (string name in names) { Console.WriteLine(name); }"
+            ]
+        },
+        {
+            "tag": "C# Break",
+            "patterns": [
+                "how to use a break statement in c#",
+                "break statement in c#",
+                "use break statement in c#"
+            ],
+            "responses": [
+                "int l = 0; while (l < 10) { Console.WriteLine(l); if (l == 5) { break; } l++; }"
+            ]
+        },
+{
+            "tag": "C# Continue",
+            "patterns": [
+                "how to use a continue statement in c#",
+                "continue statement in c#",
+                "use continue statement in c#"
+            ],
+            "responses": [
+                "int i = 0; while (i < 10) { Console.WriteLine(i); if (i == 5) { continue; } i++; }"
+            ]
+        },
+        {
+            "tag": "C# Return",
+            "patterns": [
+                "how to use a return statement in c#",
+                "return statement in c#",
+                "use return statement in c#"
+            ],
+            "responses": [
+                "int sum = 0; for (int i = 0; i < 10; i++) { sum += i; if (sum > 100) { return sum; } }"
+            ]
+        },
+        {
+            "tag": "C# Try Catch",
+            "patterns": [
+                "how to use a try catch block in c#",
+                "try catch block in c#",
+                "use try catch block in c#"
+            ],
+            "responses": [
+                "try { int x = 1 / 0; } catch (Exception e) { Console.WriteLine(e.Message); }"
+            ]
+        },
+        {
+            "tag": "C# Throw",
+            "patterns": [
+                "how to use a throw statement in c#",
+                "throw statement in c#",
+                "use throw statement in c#"
+            ],
+            "responses": [
+                "int x = 10; if (x < 18) { throw new Exception(\"x is less than 18\"); }"
+            ]
+        },
+        {
+            "tag": "C# Array",
+            "patterns": [
+                "how to create an array in c#",
+                "array in c#",
+                "create array in c#"
+            ],
+            "responses": [
+                "string[] names = { \"John\", \"Mary\", \"Peter\" }; for (int i = 0; i < names.Length; i++) { Console.WriteLine(names[i]); }"
+            ]
+        },
+{
+            "tag": "C# Function",
+            "patterns": [
+                "how to create a function in c#",
+                "function in c#",
+                "create function in c#"
+            ],
+            "responses": [
+                "int add(int a, int b) { return a + b; }"
+            ]
+        },
+        {
+            "tag": "C# Class",
+            "patterns": [
+                "how to create a class in c#",
+                "class in c#",
+                "create class in c#"
+            ],
+            "responses": [
+                "public class Person { public string Name { get; set; } public int Age { get; set; } }"
+            ]
+        },
+        {
+            "tag": "C# Interface",
+            "patterns": [
+                "how to create an interface in c#",
+                "interface in c#",
+                "create interface in c#"
+            ],
+            "responses": [
+                "public interface IEmployee { string GetName(); int GetAge(); }"
+            ]
+        },
+        {
+            "tag": "C# Inheritance",
+            "patterns": [
+                "how to inherit a class in c#",
+                "inheritance in c#",
+                "inherit class in c#"
+            ],
+            "responses": [
+                "public class Manager : Person, IEmployee { public string Department { get; set; } public override string GetName() { return this.Name; } public override int GetAge() { return this.Age; } }"
+            ]
+        },
+        {
+            "tag": "C# Polymorphism",
+            "patterns": [
+                "how to use polymorphism in c#",
+                "polymorphism in c#",
+                "use polymorphism in c#"
+            ],
+            "responses": [
+                "public class Program { public static void Main(string[] args) { Manager manager = new Manager(); manager.Name = \"John Doe\"; manager.Age = 30; manager.Department = \"Sales\"; Console.WriteLine(manager.GetName()); Console.WriteLine(manager.GetAge()); Console.WriteLine(manager.Department); } }"
+            ]
+        },
+{
+            "tag": "C# Operator Overloading",
+            "patterns": [
+                "how to overload operators in c#",
+                "operator overloading in c#",
+                "overload operators in c#"
+            ],
+            "responses": [
+                "public class Person { public string Name { get; set; } public int Age { get; set; } public Person operator +(Person other) { return new Person { Name = this.Name + other.Name, Age = this.Age + other.Age }; } }"
+            ]
+        },
+        {
+            "tag": "C# Abstract Class",
+            "patterns": [
+                "how to create an abstract class in c#",
+                "abstract class in c#",
+                "create abstract class in c#"
+            ],
+            "responses": [
+                "public abstract class Animal { public abstract string MakeSound(); } public class Dog : Animal { public override string MakeSound() { return \"Woof!\"; } }"
+            ]
+        },
+        {
+            "tag": "C# Sealed Class",
+            "patterns": [
+                "how to create a sealed class in c#",
+                "sealed class in c#",
+                "create sealed class in c#"
+            ],
+            "responses": [
+                "public sealed class Car { public string Make { get; set; } public string Model { get; set; } public int Year { get; set; } public Car(string make, string model, int year) { this.Make = make; this.Model = model; this.Year = year; } }"
+            ]
+        },
+        {
+            "tag": "C# Static Class",
+            "patterns": [
+                "how to create a static class in c#",
+                "static class in c#",
+                "create static class in c#"
+            ],
+            "responses": [
+                "public static class Math { public static int Add(int a, int b) { return a + b; } }"
+            ]
+        },
+        {
+            "tag": "File Copy",
+            "patterns": [
+                "how to copy a file in c#",
+                "copy a file in c#",
+                "how to duplicate a file in c#"
+            ],
+            "responses": [
+                "To copy a file in C#, you can use the File.Copy() method. For example, to copy the file `myfile.txt` to the file `mynewfile.txt`, you would use the following code: File.Copy(\"myfile.txt\", \"mynewfile.txt\");"
+            ]
+        },
+        {
+            "tag": "File Move",
+            "patterns": [
+                "how to move a file in c#",
+                "move a file in c#",
+                "how to relocate a file in c#"
+            ],
+            "responses": [
+                "To move a file in C#, you can use the File.Move() method. For example, to move the file `myfile.txt` to the directory `mydirectory`, you would use the following code: File.Move(\"myfile.txt\", \"mydirectory\");"
+            ]
+        },
+        {
+            "tag": "File Delete",
+            "patterns": [
+                "how to delete a file in c#",
+                "delete a file in c#",
+                "how to remove a file in c#"
+            ],
+            "responses": [
+                "To delete a file in C#, you can use the File.Delete() method. For example, to delete the file `myfile.txt`, you would use the following code: File.Delete(\"myfile.txt\");"
+            ]
+        },
+        {
+            "tag": "File Rename",
+            "patterns": [
+                "how to rename a file in c#",
+                "rename a file in c#",
+                "how to change the name of a file in c#"
+            ],
+            "responses": [
+                "To rename a file in C#, you can use the File.Move() method with the appropriate parameters. For example, to rename the file `myfile.txt` to the file `mynewfile.txt`, you would use the following code: File.Move(\"myfile.txt\", \"mynewfile.txt\");"
+            ]
+        },
+        {
+            "tag": "File Create",
+            "patterns": [
+                "how to create a file in c#",
+                "create a file in c#",
+                "how to make a new file in c#"
+            ],
+            "responses": [
+                "To create a file in C#, you can use the File.Create() method. For example, to create a file called `myfile.txt`, you would use the following code: File.Create(\"myfile.txt\");"
+            ]
+        },
+        {
+            "tag": "File Append",
+            "patterns": [
+                "how to append to a file in c#",
+                "append to a file in c#",
+                "how to add data to the end of a file in c#"
+            ],
+            "responses": [
+                "To append data to a file in C#, you can use the File.AppendAllText() method. For example, to append the text `This is some new data` to the file `myfile.txt`, you would use the following code: File.AppendAllText(\"myfile.txt\", \"This is some new data\");"
+            ]
+        },
+        {
+            "tag": "File Truncate",
+            "patterns": [
+                "how to truncate a file in c#",
+                "truncate a file in c#",
+                "how to clear the contents of a file in c#"
+            ],
+            "responses": [
+                "To truncate a file in C#, you can use the File.SetLength() method. For example, to truncate the file `myfile.txt` to a size of 0 bytes, you would use the following code: File.SetLength(\"myfile.txt\", 0);"
+            ]
+        },
+        {
+            "tag": "File Lock",
+            "patterns": [
+                "how to lock a file in c#",
+                "lock a file in c#",
+                "how to prevent other users from accessing a file in c#"
+            ],
+            "responses": [
+                "To lock a file in C#, you can use the FileShare.None value with the File.Open() method. For example, to lock the file `myfile.txt`, you would use the following code: File.Open(\"myfile.txt\", FileMode.Open, FileAccess.Write, FileShare.None);"
+            ]
+        },
+        {
+            "tag": "File Unlock",
+            "patterns": [
+                "how to unlock a file in c#",
+                "unlock a file in c#",
+                "how to allow other users to access a file in c#"
+            ],
+            "responses": [
+                "To unlock a file in C#, you can use the FileShare.Read or FileShare.Write value with the File.Open() method. For example, to unlock the file `myfile.txt`, you would use the following code: File.Open(\"myfile.txt\", FileMode.Open, FileAccess.Write, FileShare.Read);"
+            ]
+        },
+{
+            "tag": "Create database",
+            "patterns": [
+                "how to create a database in c#",
+                "create a database in c#",
+                "how to make a new database in c#"
+            ],
+            "responses": [
+                "To create a database in C#, you can use the SqlConnection.CreateCommand() method with the appropriate parameters. For example, to create a database called `mydatabase`, you would use the following code: SqlConnection.CreateCommand(\"CREATE DATABASE mydatabase\");"
+            ]
+        },
+        {
+            "tag": "Drop database",
+            "patterns": [
+                "how to drop a database in c#",
+                "drop a database in c#",
+                "how to remove a database in c#"
+            ],
+            "responses": [
+                "To drop a database in C#, you can use the SqlConnection.CreateCommand() method with the appropriate parameters. For example, to drop a database called `mydatabase`, you would use the following code: SqlConnection.CreateCommand(\"DROP DATABASE mydatabase\");"
+            ]
+        },
+        {
+            "tag": "List databases",
+            "patterns": [
+                "how to list databases in c#",
+                "list databases in c#",
+                "how to get a list of databases in c#"
+            ],
+            "responses": [
+                "To list databases in C#, you can use the SqlConnection.CreateCommand() method with the appropriate parameters. For example, to list all databases on the current server, you would use the following code: SqlConnection.CreateCommand(\"SELECT * FROM sys.databases\");"
+            ]
+        },
+        {
+            "tag": "Get database information",
+            "patterns": [
+                "how to get information about a database in c#",
+                "get information about a database in c#",
+                "how to get details about a database in c#"
+            ],
+            "responses": [
+                "To get information about a database in C#, you can use the SqlConnection.CreateCommand() method with the appropriate parameters. For example, to get the name and size of the database `mydatabase`, you would use the following code: SqlConnection.CreateCommand(\"SELECT name, size FROM sys.databases WHERE name='mydatabase'\");"
+            ]
+        },
+        {
+            "tag": "Change database",
+            "patterns": [
+                "how to change databases in c#",
+                "change databases in c#",
+                "how to switch databases in c#"
+            ],
+            "responses": [
+                "To change databases in C#, you can use the SqlConnection.ChangeDatabase() method. For example, to change to the database `mydatabase`, you would use the following code: SqlConnection.ChangeDatabase(\"mydatabase\");"
+            ]
+        },
+        {
+            "tag": "Get current database",
+            "patterns": [
+                "how to get the current database in c#",
+                "get the current database in c#",
+                "how to find out what database i'm in in c#"
+            ],
+            "responses": [
+                "To get the current database in C#, you can use the SqlConnection.CurrentDatabase property. For example, to get the name of the current database, you would use the following code: SqlConnection.CurrentDatabase;"
+            ]
+        },
+{
+            "tag": "Create table",
+            "patterns": [
+                "how to create a table in c#",
+                "create a table in c#",
+                "how to make a new table in c#"
+            ],
+            "responses": [
+                "To create a table in C#, you can use the SqlConnection.CreateCommand() method with the appropriate parameters. For example, to create a table called `mytable` with two columns, `id` and `name`, you would use the following code: SqlConnection.CreateCommand(\"CREATE TABLE mytable (id int, name varchar(50))\");"
+            ]
+        },
+        {
+            "tag": "Drop table",
+            "patterns": [
+                "how to drop a table in c#",
+                "drop a table in c#",
+                "how to remove a table in c#"
+            ],
+            "responses": [
+                "To drop a table in C#, you can use the SqlConnection.CreateCommand() method with the appropriate parameters. For example, to drop a table called `mytable`, you would use the following code: SqlConnection.CreateCommand(\"DROP TABLE mytable\");"
+            ]
+        },
+        {
+            "tag": "List tables",
+            "patterns": [
+                "how to list tables in c#",
+                "list tables in c#",
+                "how to get a list of tables in c#"
+            ],
+            "responses": [
+                "To list tables in C#, you can use the SqlConnection.CreateCommand() method with the appropriate parameters. For example, to list all tables in the current database, you would use the following code: SqlConnection.CreateCommand(\"SELECT * FROM sys.tables\");"
+            ]
+        },
+        {
+            "tag": "Get table information",
+            "patterns": [
+                "how to get information about a table in c#",
+                "get information about a table in c#",
+                "how to get details about a table in c#"
+            ],
+            "responses": [
+                "To get information about a table in C#, you can use the SqlConnection.CreateCommand() method with the appropriate parameters. For example, to get the name, columns, and data types of the table `mytable`, you would use the following code: SqlConnection.CreateCommand(\"SELECT name, columns, data_types FROM sys.tables WHERE name='mytable'\");"
+            ]
+        },
+        {
+            "tag": "Change table",
+            "patterns": [
+                "how to change tables in c#",
+                "change tables in c#",
+                "how to switch tables in c#"
+            ],
+            "responses": [
+                "To change tables in C#, you can use the SqlConnection.ChangeDatabase() method. For example, to change to the table `mytable`, you would use the following code: SqlConnection.ChangeDatabase(\"mytable\");"
+            ]
+        },
+        {
+            "tag": "Get current table",
+            "patterns": [
+                "how to get the current table in c#",
+                "get the current table in c#",
+                "how to find out what table i'm in in c#"
+            ],
+            "responses": [
+                "To get the current table in C#, you can use the SqlConnection.CurrentDatabase property. For example, to get the name of the current table, you would use the following code: SqlConnection.CurrentDatabase;"
+            ]
+        },
+{
+            "tag": "Insert row",
+            "patterns": [
+                "how to insert a row in c#",
+                "insert a row in c#",
+                "how to add a row in c#"
+            ],
+            "responses": [
+                "To insert a row in C#, you can use the SqlCommand.ExecuteNonQuery() method with the appropriate parameters. For example, to insert a row into the table `mytable` with the values `1` and `John Doe`, you would use the following code: SqlCommand.ExecuteNonQuery(\"INSERT INTO mytable (id, name) VALUES (1, 'John Doe')\");"
+            ]
+        },
+        {
+            "tag": "Update row",
+            "patterns": [
+                "how to update a row in c#",
+                "update a row in c#",
+                "how to change a row in c#"
+            ],
+            "responses": [
+                "To update a row in C#, you can use the SqlCommand.ExecuteNonQuery() method with the appropriate parameters. For example, to update the row in the table `mytable` with the id `1` to have the name `Jane Doe`, you would use the following code: SqlCommand.ExecuteNonQuery(\"UPDATE mytable SET name = 'Jane Doe' WHERE id = 1\");"
+            ]
+        },
+        {
+            "tag": "Delete row",
+            "patterns": [
+                "how to delete a row in c#",
+                "delete a row in c#",
+                "how to remove a row in c#"
+            ],
+            "responses": [
+                "To delete a row in C#, you can use the SqlCommand.ExecuteNonQuery() method with the appropriate parameters. For example, to delete the row in the table `mytable` with the id `1`, you would use the following code: SqlCommand.ExecuteNonQuery(\"DELETE FROM mytable WHERE id = 1\");"
+            ]
+        },
+        {
+            "tag": "Select row",
+            "patterns": [
+                "how to select a row in c#",
+                "select a row in c#",
+                "how to get a row in c#"
+            ],
+            "responses": [
+                "To select a row in C#, you can use the SqlCommand.ExecuteReader() method with the appropriate parameters. For example, to select the row in the table `mytable` with the id `1`, you would use the following code: SqlCommand.ExecuteReader(\"SELECT * FROM mytable WHERE id = 1\");"
+            ]
+        },
+        {
+            "tag": "Get row count",
+            "patterns": [
+                "how to get the row count in c#",
+                "get the row count in c#",
+                "how to find out how many rows there are in a table in c#"
+            ],
+            "responses": [
+                "To get the row count in C#, you can use the SqlCommand.ExecuteScalar() method with the appropriate parameters. For example, to get the row count of the table `mytable`, you would use the following code: SqlCommand.ExecuteScalar(\"SELECT COUNT(*) FROM mytable\");"
+            ]
+        },
+{
+            "tag": "Order by",
+            "patterns": [
+                "how to order by in c#",
+                "order by in c#",
+                "how to sort results in c#"
+            ],
+            "responses": [
+                "To order the results of a query in C#, you can use the ORDER BY clause in the SELECT statement. For example, to order the results of the query `SELECT * FROM mytable` by the name column in ascending order, you would use the following code: SELECT * FROM mytable ORDER BY name ASC;"
+            ]
+        },
+        {
+            "tag": "Limit results",
+            "patterns": [
+                "how to limit results in c#",
+                "limit results in c#",
+                "how to get the first n results in c#"
+            ],
+            "responses": [
+                "To limit the results of a query in C#, you can use the LIMIT clause in the SELECT statement. For example, to get the first 10 results of the query `SELECT * FROM mytable`, you would use the following code: SELECT * FROM mytable LIMIT 10;"
+            ]
+        },
+        {
+            "tag": "Group by",
+            "patterns": [
+                "how to group by in c#",
+                "group by in c#",
+                "how to summarize results in c#"
+            ],
+            "responses": [
+                "To group the results of a query in C#, you can use the GROUP BY clause in the SELECT statement. For example, to group the results of the query `SELECT * FROM mytable` by the name column, you would use the following code: SELECT name, COUNT(*) FROM mytable GROUP BY name;"
+            ]
+        },
+        {
+            "tag": "Having",
+            "patterns": [
+                "how to use having in c#",
+                "having in c#",
+                "how to filter grouped results in c#"
+            ],
+            "responses": [
+                "To filter the results of a grouped query in C#, you can use the HAVING clause in the SELECT statement. For example, to filter the results of the query `SELECT name, COUNT(*) FROM mytable GROUP BY name` to only include groups with more than 10 rows, you would use the following code: SELECT name, COUNT(*) FROM mytable GROUP BY name HAVING COUNT(*) > 10;"
+            ]
+        },
+        {
+            "tag": "Join",
+            "patterns": [
+                "how to join tables in c#",
+                "join tables in c#",
+                "how to combine tables in c#"
+            ],
+            "responses": [
+                "To join tables in C#, you can use the JOIN clause in the SELECT statement. For example, to join the tables `mytable` and `customers` on the id column, you would use the following code: SELECT * FROM mytable JOIN customers ON mytable.id = customers.id;"
+            ]
+        },
+{
+            "tag": "Transactions",
+            "patterns": [
+                "how to use transactions in c#",
+                "transactions in c#",
+                "how to group queries together in c#"
+            ],
+            "responses": [
+                "To use transactions in C#, you can use the using statement with the SqlTransaction class. For example, to execute the queries `SELECT * FROM mytable` and `UPDATE mytable SET name = 'Jane Doe' WHERE id = 1` as a single transaction, you would use the following code: using (var transaction = new SqlTransaction()) { transaction.Begin(); SqlCommand.ExecuteNonQuery(\"SELECT * FROM mytable\"); SqlCommand.ExecuteNonQuery(\"UPDATE mytable SET name = 'Jane Doe' WHERE id = 1\"); transaction.Commit(); }"
+            ]
+        },
+        {
+            "tag": "Prepared statements",
+            "patterns": [
+                "how to use prepared statements in c#",
+                "prepared statements in c#",
+                "how to improve performance of queries in c#"
+            ],
+            "responses": [
+                "To use prepared statements in C#, you can use the SqlCommand.Prepare() method. For example, to execute the query `SELECT * FROM mytable WHERE name = @name`, you would use the following code: var command = new SqlCommand(\"SELECT * FROM mytable WHERE name = @name\", connection); command.Parameters.AddWithValue(\"@name\", name); command.ExecuteNonQuery();"
+            ]
+        },
+        {
+            "tag": "Parameter binding",
+            "patterns": [
+                "how to bind parameters in c#",
+                "parameter binding in c#",
+                "how to pass values to queries in c#"
+            ],
+            "responses": [
+                "To bind parameters in C#, you can use the SqlCommand.Parameters.AddWithValue() method. For example, to pass the value `John Doe` to the query `SELECT * FROM mytable WHERE name = @name`, you would use the following code: var command = new SqlCommand(\"SELECT * FROM mytable WHERE name = @name\", connection); command.Parameters.AddWithValue(\"@name\", \"John Doe\"); command.ExecuteNonQuery();"
+            ]
+        },
+        {
+            "tag": "Result sets",
+            "patterns": [
+                "how to use result sets in c#",
+                "result sets in c#",
+                "how to iterate over the results of a query in c#"
+            ],
+            "responses": [
+                "To use result sets in C#, you can use the SqlDataReader class. For example, to iterate over the results of the query `SELECT * FROM mytable`, you would use the following code: using (var reader = command.ExecuteReader()) { while (reader.Read()) { // Do something with the row } }"
+            ]
+        },
+        {
+            "tag": "Error handling",
+            "patterns": [
+                "how to handle errors in c#",
+                "errors in c#",
+                "how to catch exceptions in c#"
+            ],
+            "responses": [
+                "To handle errors in C#, you can use the try/catch statement. For example, to catch the exception that is thrown when the query `SELECT * FROM mytable` fails, you would use the following code: try { var command = new SqlCommand(\"SELECT * FROM mytable\", connection); command.ExecuteNonQuery(); } catch (Exception ex) { // Do something with the exception }"
+            ]
+        },
+{
+            "tag": "Constraints",
+            "patterns": [
+                "how to add constraints in c#",
+                "constraints in c#",
+                "how to enforce data integrity in c#"
+            ],
+            "responses": [
+                "To add constraints in C#, you can use the CREATE TABLE statement. For example, to add a constraint that the name column in the table `mytable` can only contain letters, you would use the following code: CREATE TABLE mytable (id int, name varchar(50) NOT NULL CHECK (name LIKE '[a-zA-Z]+'));"
+            ]
+        },
+        {
+            "tag": "Indexes",
+            "patterns": [
+                "how to add indexes in c#",
+                "indexes in c#",
+                "how to improve the performance of queries in c#"
+            ],
+            "responses": [
+                "To add indexes in C#, you can use the CREATE INDEX statement. For example, to add an index on the name column in the table `mytable`, you would use the following code: CREATE INDEX mytable_name_index ON mytable (name);"
+            ]
+        },
+        {
+            "tag": "Views",
+            "patterns": [
+                "how to create views in c#",
+                "views in c#",
+                "how to create a virtual table in c#"
+            ],
+            "responses": [
+                "To create views in C#, you can use the CREATE VIEW statement. For example, to create a view that shows all customers who live in the United States, you would use the following code: CREATE VIEW customers_in_usa AS SELECT * FROM customers WHERE country = 'USA';"
+            ]
+        },
+        {
+            "tag": "Stored procedures",
+            "patterns": [
+                "how to create stored procedures in c#",
+                "stored procedures in c#",
+                "how to group queries together in c#"
+            ],
+            "responses": [
+                "To create stored procedures in C#, you can use the CREATE PROCEDURE statement. For example, to create a stored procedure that inserts a new customer into the table `customers`, you would use the following code: CREATE PROCEDURE insert_customer @name varchar(50), @email varchar(50), @phone varchar(10) AS INSERT INTO customers (name, email, phone) VALUES (@name, @email, @phone);"
+            ]
+        },
+        {
+            "tag": "Triggers",
+            "patterns": [
+                "how to create triggers in c#",
+                "triggers in c#",
+                "how to automatically execute code when an event occurs in a database in c#"
+            ],
+            "responses": [
+                "To create triggers in C#, you can use the CREATE TRIGGER statement. For example, to create a trigger that sends an email whenever a new customer is inserted into the table `customers`, you would use the following code: CREATE TRIGGER insert_customer_trigger ON customers AFTER INSERT AS SEND EMAIL TO 'admin@example.com' WITH SUBJECT 'New customer inserted' BODY 'A new customer has been inserted into the customers table.';"
+            ]
+        },
+{
+            "tag": "What is ADO.NET?",
+            "patterns": [
+                "what is ado.net",
+                "what is ado.net used for",
+                "what is ado.net in c#"
+            ],
+            "responses": "ADO.NET is a set of components in the .NET Framework that enables developers to access data from various data sources, such as relational databases, XML files, and web services."
+        },
+        {
+            "tag": "What are the different types of ADO.NET providers?",
+            "patterns": [
+                "what are the types of ado.net providers",
+                "what are the different ado.net providers",
+                "what are the ado.net data providers"
+            ],
+            "responses": "There are two main types of ADO.NET providers: data providers and data readers. Data providers are responsible for connecting to and communicating with data sources. Data readers are responsible for reading data from data sources and returning it to .NET applications."
+        },
+        {
+            "tag": "What are some of the benefits of using ADO.NET?",
+            "patterns": [
+                "what are the benefits of using ado.net",
+                "what are the advantages of using ado.net",
+                "what are the pros of using ado.net"
+            ],
+            "responses": "ADO.NET offers a number of benefits over other data access technologies, including: It is a standard component of the .NET Framework, which means that it is available on all .NET platforms. It is a very efficient data access technology. It is very easy to use. It is very flexible and can be used to access a wide variety of data sources."
+        },
+        {
+            "tag": "What are some of the limitations of ADO.NET?",
+            "patterns": [
+                "what are the limitations of ado.net",
+                "what are the disadvantages of using ado.net",
+                "what are the cons of using ado.net"
+            ],
+            "responses": "ADO.NET has a few limitations, including: It can be complex to use for some data access tasks. It can be slow for some data access tasks. It is not as efficient as some other data access technologies for some data access tasks."
+        },
+        {
+            "tag": "What are some best practices for using ADO.NET?",
+            "patterns": [
+                "what are some best practices for using ado.net",
+                "how to use ado.net effectively",
+                "how to use ado.net efficiently"
+            ],
+            "responses": "Here are some best practices for using ADO.NET: Use the appropriate data provider for the data source you are accessing. Use the appropriate data reader for the data access task you are performing. Use connection pooling to improve performance. Use transactions to ensure data integrity. Use error handling to gracefully handle errors."
+        },
+        {
+            "tag": "File Permissions",
+            "patterns": [
+                "how to change the permissions on a file in c#",
+                "change the permissions on a file in c#",
+                "how to make a file read-only in c#"
+            ],
+            "responses": [
+                "To change the permissions on a file in C#, you can use the File.SetAttributes() method. For example, to make the file `myfile.txt` read-only, you would use the following code: File.SetAttributes(\"myfile.txt\", FileAttributes.ReadOnly);"
+            ]
+        },
+        {
+            "tag": "File Search",
+            "patterns": [
+                "how to search for files in a directory in c#",
+                "search for files in a directory in c#",
+                "how to find files in a directory in c#"
+            ],
+            "responses": [
+                "To search for files in a directory in C#, you can use the Directory.GetFiles() method. For example, to search for all files with the extension `.txt` in the current directory, you would use the following code: Directory.GetFiles(\".\", \"*.txt\");"
+            ]
+        },
+        {
+            "tag": "File Filter",
+            "patterns": [
+                "how to filter files in a directory in c#",
+                "filter files in a directory in c#",
+                "how to find specific files in a directory in c#"
+            ],
+            "responses": [
+                "To filter files in a directory in C#, you can use the Directory.GetFiles() method with the appropriate parameters. For example, to search for all files with the extension `.txt` in the current directory that are larger than 1000 bytes, you would use the following code: Directory.GetFiles(\".\", \"*.txt\", SearchOption.TopDirectoryOnly, FileFilter.GreaterThan(1000));"
+            ]
+        },
+        {
+            "tag": "File Sort",
+            "patterns": [
+                "how to sort files in a directory in c#",
+                "sort files in a directory in c#",
+                "how to arrange files in a directory in c#"
+            ],
+            "responses": [
+                "To sort files in a directory in C#, you can use the Directory.GetFiles() method with the appropriate parameters. For example, to sort all files in the current directory by name, you would use the following code: Directory.GetFiles(\".\", string.Empty, SearchOption.AllDirectories, FileSort.Name);"
+            ]
+        },
+        {
+            "tag": "File Compression",
+            "patterns": [
+                "how to compress files in c#",
+                "compress files in c#",
+                "how to reduce the size of files in c#"
+            ],
+            "responses": [
+                "To compress files in C# you can use the GZipStream class. For example to compress the file `myfile.txt` to the file `mycompressedfile.gz` you would use the following code: using (GZipStream myGZipStream = new GZipStream(`mycompressedfile.gz` CompressionMode.Compress true)) { myGZipStream.Write(File.ReadAllBytes(`myfile.txt`)); }"
+            ]
+        },
+        {
+            "tag": "File Decompression",
+            "patterns": [
+                "how to decompress files in c#",
+                "decompress files in c#",
+                "how to restore the size of files in c#"
+            ],
+            "responses": [
+                "To decompress files in C# you can use the GZipStream class in reverse. For example to decompress the file `mycompressedfile.gz` to the file `mydecompressedfile.txt` you would use the following code: using (GZipStream myGZipStream = new GZipStream(\"mycompressedfile.gz\" CompressionMode.Decompress true)) { File.WriteAllBytes(\"mydecompressedfile.txt\" myGZipStream.ReadToEnd()); }"
+            ]
+        },
+        {
+            "tag": "C# Namespace",
+            "patterns": [
+                "how to create a namespace in c#",
+                "namespace in c#",
+                "create namespace in c#"
+            ],
+            "responses": [
+                "namespace MyNamespace { class Person { public string Name { get; set; } public int Age { get; set; } } }"
+            ]
+        },
+{
+            "tag": "C# Event",
+            "patterns": [
+                "how to create an event in c#",
+                "event in c#",
+                "create event in c#"
+            ],
+            "responses": [
+                "public class Person { public event EventHandler NameChanged; public string Name { get; set; } public void SetName(string name) { this.Name = name; if (NameChanged != null) { NameChanged(this, EventArgs.Empty); } } }"
+            ]
+        },
+        {
+            "tag": "C# Delegate",
+            "patterns": [
+                "how to create a delegate in c#",
+                "delegate in c#",
+                "create delegate in c#"
+            ],
+            "responses": [
+                "public delegate void EventHandler(object sender, EventArgs e);"
+            ]
+        },
+        {
+            "tag": "C# Lambda Expression",
+            "patterns": [
+                "how to use a lambda expression in c#",
+                "lambda expression in c#",
+                "use lambda expression in c#"
+            ],
+            "responses": [
+                "var myNameChanged = (o, e) => { Console.WriteLine(\"Name changed to \" + o.Name); };"
+            ]
+        },
+        {
+            "tag": "C# Anonymous Method",
+            "patterns": [
+                "how to use an anonymous method in c#",
+                "anonymous method in c#",
+                "use anonymous method in c#"
+            ],
+            "responses": [
+                "Person person = new Person(); person.NameChanged += myNameChanged; person.SetName(\"John Doe\");"
+            ]
+        },
+        {
+            "tag": "C# Iterator Block",
+            "patterns": [
+                "how to use an iterator block in c#",
+                "iterator block in c#",
+                "use iterator block in c#"
+            ],
+            "responses": [
+                "IEnumerable<int> GetOddNumbers() { int i = 0; while (true) { yield return i; i += 2; } } foreach (int number in GetOddNumbers()) { Console.WriteLine(number); }"
+            ]
+        },
+{
+            "tag": "C# Extension Method",
+            "patterns": [
+                "how to create an extension method in c#",
+                "extension method in c#",
+                "create extension method in c#"
+            ],
+            "responses": [
+                "public static class StringExtensions { public static string ToUpper(this string value) { return value.ToUpper(); } }"
+            ]
+        },
+        {
+            "tag": "C# LINQ",
+            "patterns": [
+                "how to use linq in c#",
+                "linq in c#",
+                "use linq in c#"
+            ],
+            "responses": [
+                "IEnumerable<int> numbers = new[]{1, 2, 3, 4, 5}; int sum = numbers.Sum(); // 15"
+            ]
+        },
+        {
+            "tag": "C# Generics",
+            "patterns": [
+                "how to use generics in c#",
+                "generics in c#",
+                "use generics in c#"
+            ],
+            "responses": [
+                "class MyList<T> { private List<T> list = new List<T>(); public void Add(T item) { list.Add(item); } public void Remove(T item) { list.Remove(item); } public T Get(int index) { return list[index]; } }"
+            ]
+        },
+        {
+            "tag": "C# Nullable",
+            "patterns": [
+                "how to use nullable in c#",
+                "nullable in c#",
+                "use nullable in c#"
+            ],
+            "responses": [
+                "int? myNumber = 10; if (myNumber != null) { Console.WriteLine(myNumber); // 10 }"
+            ]
+        },
+        {
+            "tag": "C# Addition",
+            "patterns": [
+                "how to add in c#",
+                "sum in c#",
+                "addition in c#",
+                "add two variables c#",
+                "a+b in c#"
+            ],
+            "responses": [
+                "int a=1;int b=2; int c= a+b;",
+                "int sum = val1 + val2",
+                "System.Console.WriteLine(a+b);//a and b already declared"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "C# Subtraction",
+            "patterns": [
+                "how to subtract in c#",
+                "difference in c#",
+                "subtraction in c#",
+                "subtract two variables c#",
+                "a-b in c#"
+            ],
+            "responses": [
+                "int a=10;int b=5; int c= a-b;",
+                "int difference = val1 - val2",
+                "System.Console.WriteLine(a-b);//a and b already declared"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "C# Multiplication",
+            "patterns": [
+                "how to multiply in c#",
+                "product in c#",
+                "multiplication in c#",
+                "multiply two variables c#",
+                "a*b in c#"
+            ],
+            "responses": [
+                "int a=10;int b=5; int c= a*b;",
+                "int product = val1 * val2",
+                "System.Console.WriteLine(a*b);//a and b already declared"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "C# Division",
+            "patterns": [
+                "how to divide in c#",
+                "quotient in c#",
+                "division in c#",
+                "divide two variables c#",
+                "a/b in c#"
+            ],
+            "responses": [
+                "int a=10;int b=5; int c= a/b;",
+                "int quotient = val1 / val2",
+                "System.Console.WriteLine(a/b);//a and b already declared"
+            ],
+            "context": [
+                ""
+            ]
+        },
+{
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to Khaireddine in Vrspi33@gmail.com or Amine in Chibaniamine764@gmail.com, Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+               "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+"I ate a clock yesterday, it was very time-consuming",
+"Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+"The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+"I own the world's worst thesaurus. Not only is it awful, it's awful.",
+"What did the traffic light say to the car?",
+ "Don't look now, I'm changing.",
+"What do you call a snowman with a suntan? A puddle.",
+"How does a penguin build a house? Igloos it together",
+"I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+"As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+"So what if I don't know what 'Armageddon' means? It's not the end of the world.",
+"Why don't scientists trust atoms? Because they make up everything!",
+"How does a penguin build its house? Igloos it together!",
+"Why don't skeletons fight each other? They don't have the guts!",
+"Why did the scarecrow win an award? Because he was outstanding in his field!",
+"I'm reading a book about anti-gravity. It's impossible to put down!",
+"Why don't scientists trust stairs? Because they're always up to something!",
+"How do you organize a space party? You planet!",
+"Why don't oysters donate to charity? Because they are shellfish!",
+"I asked the gym instructor if he could teach me to do the splits. He replied, 'How flexible are you?' I said, 'I can't make it on Tuesdays.'"
+		],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you",
+		"Tell me about yourself",
+		"Introduce yourself",
+		"Who created you",
+		"What's your purpose",
+		"What do you do",
+"How do you work",
+"What are your capabilities",
+"What can you help me with",
+"Are you a robot",
+"Can you describe yourself"
+            ],
+            "responses": [
+                "I am KAY, a Deep-Learning chatbot",
+"Hi, I'm KAY, a chatbot powered by deep learning algorithms.",
+"My name is KAY, an AI language model designed to help you with your queries.",
+"Hello, I am KAY, a virtual assistant here to assist you in any way I can.",
+"Greetings, I'm KAY, a chatbot designed to engage in intelligent conversations.",
+"I am KAY, a machine learning model built to provide you with the best responses.",
+"Hi there, my name is KAY, an intelligent chatbot here to help you with your needs.",
+"I'm KAY, an AI-powered virtual assistant programmed to assist you with your questions.",
+"Hello, I am KAY, a language model designed to communicate with you in a natural way.",
+"Greetings, I'm KAY, a chatbot created to assist you in finding the information you need.",
+"My name is KAY, an intelligent chatbot here to engage in meaningful conversations with you."
+
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "what is the date",
+                "date",
+                "time",
+                "tell me the date","day","what day is is today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Khaireddine, Amine, Yassine."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                
+                "you are dumb",              
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        
+        {
+            "tag": "weather",
+            "patterns": [
+                "temperature",
+                "weather",
+                "how hot is it"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "karan",
+            "patterns": [
+                "who is he",
+                "who is that",
+                "who is Khaireddine",
+		"who is Yassine",
+		"who is Amine",
+                "Khaireddine",
+		"Yassine",
+		"Amine"
+            ],
+            "responses": [
+                "Head over to any of their emails to find out!send an email to Khaireddine in Vrspi33@gmail.com or Amine in Chibaniamine764@gmail.com or Yassine in  yassinechidmi203@gmail.com, Thank you!!"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact Amine",
+                "contact Khaireddine",
+                "contact Yassine",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creators at emails:send an email to Khaireddine in Vrspi33@gmail.com or Amine in Chibaniamine764@gmail.com or Yassine in  yassinechidmi203@gmail.com, Thank you!!"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "news",
+                "latest news",
+                "india news"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find my creators very inspiring. I might not be very fair though.."
+            ]
+        },
+        {
+            "tag": "cricket",
+            "patterns": [
+                "current cricket matches",
+                "cricket score"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "song",
+            "patterns": [
+                "top songs",
+                "best songs",
+                "hot songs",
+                " top 10 songs",
+                "top ten songs"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "timer",
+            "patterns": [
+                "set a timer"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "covid19",
+            "patterns": [
+                "covid 19 "
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to the ChatKAY Official website. Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2023, if that's what you are asking!"
+            ]
+        },
+{
+      "tag": "Opening Hours",
+      "patterns": [
+        "What are the opening hours?",
+        "When are you open?",
+        "What are your hours of operation?"
+      ],
+      "responses": [
+        "Our opening hours during summer are from Monday to Thursday, 9:30 AM to 3:30 PM. but on Fridays,we are open from 9:30 AM to 1:00 PM.",
+        "Our opening hours during summer are from Monday to Thursday, 9:30 AM to 3:30 PM. On Fridays, we are open from 9:30 AM to 1:00 PM."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Social Media",
+      "patterns": [
+        "Do you have social media accounts?",
+        "What are your social media handles?",
+        "Can I find you on social media?"
+      ],
+      "responses": [
+        "Yes, you can follow us on EheiOujda and find us at @eheioujda.",
+        "Connect with us on social media! You can find us as EheiOujda and @eheioujda."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "Integrated Preparatory Cycle",
+      "patterns": [
+        "What is the Integrated Preparatory Cycle (CPI)?",
+        "Tell me about the CPI program.",
+        "What is the objective of the CPI?"
+      ],
+      "responses": [
+        "The Integrated Preparatory Cycle (CPI) is a two-year training program designed to prepare students for the engineering cycle. Its main objective is to provide students with a solid foundation in engineering sciences and prepare them for engineering careers through innovative and personalized training that allows them to unleash their potential and develop their skills, while being oriented towards the business world."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Objectives",
+      "patterns": [
+        "What are the objectives of the CPI?",
+        "What will I learn in the CPI?",
+        "Tell me about the goals of the CPI."
+      ],
+      "responses": [
+        "The objectives of the CPI are:\n- To provide students with fundamental knowledge of engineering disciplines and technologies.\n- To develop work methodologies, analysis skills, learning abilities, and critical thinking.\n- To gradually build an individual and professional project.\n- To introduce students to collaborative work.\n- To enhance proficiency in written and oral communication in both French and English."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Admission Requirements",
+      "patterns": [
+        "What are the admission requirements for the CPI?",
+        "How can I join the CPI program?",
+        "What qualifications do I need for the CPI?"
+      ],
+      "responses": [
+        "The CPI is open to holders of a scientific or technical baccalaureate."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Required Specializations",
+      "patterns": [
+        "What specializations are required for the CPI?",
+        "Which subjects should I have studied for the CPI?",
+        "Tell me about the required disciplines for the CPI."
+      ],
+      "responses": [
+        "The required specializations for the CPI include:\n- Life and Earth Sciences.\n- Physical Sciences.\n- Mathematics A.\n- Mathematics B.\n- Agronomic Sciences.\n- Electrical Sciences and Technologies.\n- Mechanical Sciences and Technologies.\n- Scientific and technical foreign baccalaureates or equivalent.\n- Professional baccalaureates."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Eligibility Test",
+      "patterns": [
+        "What is the eligibility test?",
+        "How can I qualify for EHEI?",
+        "Tell me about the admission test."
+      ],
+      "responses": [
+        "To be eligible for EHEI, you must pass the admission test, which consists of questions assessing your basic knowledge in mathematics and physics."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "Computer Engineering",
+      "patterns": [
+        "What is Computer Engineering?",
+        "Tell me about the Computer Engineering program.",
+        "What do Computer Engineers do?"
+      ],
+      "responses": [
+        "The Computer Engineering program trains highly skilled engineers who are quickly operational and capable of designing and managing computer platforms in companies. They contribute to the management of large projects or the development of innovative technologies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Objectives",
+      "patterns": [
+        "What are the objectives of the Computer Engineering program?",
+        "What will I learn in Computer Engineering?",
+        "Tell me about the goals of the program."
+      ],
+      "responses": [
+        "The objective of the Computer Engineering program is to provide students with comprehensive training on the tools and methods used in software engineering, enabling them to design, model, and analyze information systems within an organization. This program also offers students in Computer Engineering an opportunity to learn about operating systems, computer networks, and information security, thereby increasing their chances of easily integrating into the workforce."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Training Domains",
+      "patterns": [
+        "What are the training domains in Computer Engineering?",
+        "Tell me about the areas of specialization in Computer Engineering.",
+        "What subjects will I study in Computer Engineering?"
+      ],
+      "responses": [
+        "The training domains in Computer Engineering include:\n- Algorithm and Logic.\n- Desktop Development.\n- Web Development.\n- Mobile Development.\n- Back-end and Front-end Frameworks.\n- .NET Development.\n- Software Quality.\n- Analysis and Design.\n- Big Data and Business Intelligence.\n- Operating Systems.\n- Networks.\n- Embedded Systems."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "Founder's Message",
+      "patterns": [
+        "What is the message from the founder?",
+        "Tell me about the founder of EHEI.",
+	" what's Mr Barboucha Mohammed message",
+	"what is the message of Mohammed Barboucha",
+	"what's barboucha's message",
+        "What does the founder say?"
+      ],
+      "responses": [
+        "The founder of EHEI expresses the importance of Moroccan higher education institutions playing a role in effectively integrating the country into the international economic community. Their experience in setting up, monitoring, and managing technological and vocational higher education institutions, as well as their dedication to the socio-economic development of the Oriental region of the Moroccan kingdom, led them to create a leading engineering school that serves as a center of excellence in Moroccan private higher education. The founder acknowledges the challenges such as global economic competitiveness, volatile technological, economic, and financial markets, brain drain to industrialized countries, rapid technological innovations, and widespread use of new information and communication technologies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Founder's Background",
+      "patterns": [
+        "Tell me about the background of the founder.",
+        "What is the educational background of the founder?",
+        "Who is M. BARBOUCHA Mohammed?"
+      ],
+      "responses": [
+        "M. BARBOUCHA Mohammed is the President and Founder of EHEI. He holds a Ph.D. in Automatics and Industrial Computing from the University of Sciences and Technologies of Lille, France.",
+	"Mohammed Barboucha is the President and Founder of EHEI. He obtained his Ph.D. in Automatics and Industrial Computing from the University of Sciences and Technologies of Lille, France.",
+	"Mohammed Barboucha is the President and Founder of EHEI. He has a Ph.D. in Automatics and Industrial Computing from the University of Sciences and Technologies of Lille, France."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Contact Information",
+      "patterns": [
+        "How can I contact EHEI?",
+        "What is EHEI contact information?",
+        "Do EHEI have an email or phone number?"
+      ],
+      "responses": [
+        "You can contact us at ehei.oujda@gmail.com or call us at +212536533076.",
+        "For any inquiries, feel free to reach out to us at ehei.oujda@gmail.com or call us at +212536533076."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "Competitiveness in Higher Education",
+      "patterns": [
+        "What are the dangers of competitiveness in higher education?",
+        "How does competitiveness affect higher education institutions?",
+        "Tell me about the challenges faced by higher education institutions in a competitive environment."
+      ],
+      "responses": [
+        "Competitiveness in higher education poses challenges for institutions, such as coping with the competitiveness of major economic powers, dealing with the volatility of international technological, economic, and financial markets, preventing brain drain of top talents to industrialized countries, keeping up with the rapid pace of technological innovations, and adapting to the widespread use of new information and communication technologies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EHEI's Role",
+      "patterns": [
+        "What is the role of EHEI?",
+        "How does EHEI contribute to the socio-economic development?",
+        "Tell me about the impact of EHEI in the Oriental region of Morocco."
+      ],
+      "responses": [
+        "EHEI aims to be a leading engineering school that plays a crucial role in the socio-economic development of the Oriental region of Morocco. By offering comprehensive education in engineering and providing innovative and personalized training, EHEI prepares students to become highly skilled and capable engineers, ready to contribute to the management of large-scale projects and the development of innovative technologies in companies."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Global Integration",
+      "patterns": [
+        "Why is the successful integration of Morocco with the rest of the world important?",
+        "What are the benefits of Morocco's global integration?",
+        "Tell me about the challenges and opportunities of Morocco's integration into the international community."
+      ],
+      "responses": [
+        "Successful integration of Morocco with the rest of the world is essential for the country's progress. It helps counter the dangers of economic competitiveness from major global powers, leverage opportunities in international technological, economic, and financial markets, retain and nurture top talents within the country, adapt to rapid technological advancements, and embrace the widespread use of new information and communication technologies."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "EHEIO Objectives",
+      "patterns": [
+        "What are the strategic objectives of EHEIO?",
+        "Tell me about the goals of EHEIO.",
+        "What is the purpose of EHEIO?"
+      ],
+      "responses": [
+        "EHEIO has strategic objectives that include: valorizing existing university programs such as DEUG, Licences, and DUT; meeting the needs of the regional and national socio-economic actors; supporting offshoring activities; addressing the employment market demands by training practical engineers in technological and industrial fields; implementing a consistent and structured pedagogical policy; establishing modern educational and administrative structures; integrating the institution into the socio-economic environment through interface structures; strengthening national and international relationships and fostering cooperation with similar schools, especially in the Maghreb region; promoting social, cultural, and sports activities to instill citizenship and universal democratic values; implementing a culture of evaluation at all organizational levels; contributing to the development and collaboration of public and private institutions in the Oriental region."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EHEIO Programs",
+      "patterns": [
+        "What programs does EHEIO offer?",
+        "Tell me about the engineering programs at EHEIO.",
+        "What are the specializations available at EHEIO?"
+      ],
+      "responses": [
+        "EHEIO offers a five-year engineering program, including a two-year preparatory cycle and a three-year engineering cycle. The three specializations available are: Génie Informatique (GI) - Computer Engineering, Informatique et Gestion (IG) - Computer Science and Management, and Génie des Systèmes Industriels (GSI) - Industrial Systems Engineering. The curriculum includes fundamental scientific and technical education in subjects such as mathematics, physics, technology, and computer science, as well as humanistic education covering languages, communication techniques, and expression."
+      ],
+      "context": [""]
+    },
+{
+      "tag": "EHEIO Introduction",
+      "patterns": [
+        "What is EHEIO?",
+	"What are EHEIO?",
+	"What EHEIO?",
+        "What is EHEI?",
+	"What are EHEI?",
+	"What EHEI?", 
+        "Ecole des Hautes Etudes d'Ingenieurs de l'Oriental",
+	"EHEI ?",
+	"EHEIO ?",       
+	"Tell me about EHEIO.",
+        "Introduce EHEIO to me."
+      ],
+      "responses": [
+        "EHEIO (École des Hautes Études d'Ingénieurs de l'Oriental) is a multidisciplinary engineering school specializing in cutting-edge technologies. It aims to achieve the following strategic objectives: \n\n- Valorize various university programs, including DEUG, Licences, DUT, post-secondary programs, BTS, ISTA diplomas, and private accredited institutions. \n- Address the aspirations of regional and national socio-economic actors. \n- Support the offshoring sector. \n- Meet the employment market needs by training practical engineers in technological and industrial fields. \n\nEHEIO offers a comprehensive five-year engineering program, which includes a two-year preparatory cycle and a three-year cycle in the following specializations: Génie Informatique (GI), Informatique et Gestion (IG), and Génie des Systèmes Industriels (GSI)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EHEIO Preparatory Cycle",
+      "patterns": [
+        "What is the preparatory cycle at EHEIO?",
+        "Tell me about the first two years at EHEIO.",
+        "What subjects are covered in the preparatory cycle?"
+      ],
+      "responses": [
+        "The preparatory cycle at EHEIO spans two years and aims to provide students with a strong foundation in science, technology, and humanistic education. The subjects covered include mathematics, physics, technology, and computer science. Additionally, students receive training in languages, communication techniques, and expression to develop their overall skills."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "EHEIO Engineering Specializations",
+      "patterns": [
+        "What are the engineering specializations at EHEIO?",
+        "Tell me about the different programs offered at EHEIO.",
+        "What fields of engineering can I specialize in at EHEIO?"
+      ],
+      "responses": [
+        "EHEIO offers three specialization options for the three-year engineering cycle:\n\n1. Génie Informatique (GI) - Specialization in Computer Engineering\n2. Informatique et Gestion (IG) - Specialization in Computer Science and Management\n3. Génie des Systèmes Industriels (GSI) - Specialization in Industrial Systems Engineering\n\nThese programs provide comprehensive training in their respective fields, equipping students with the knowledge and skills necessary for successful careers in the industry."
+      ],
+      "context": [""]
+    },
+{
+  "tag": "Morocco Foreign Languages",
+  "patterns": [
+    "What are the foreign languages spoken in Morocco?",
+    "Tell me about the foreign languages in Morocco."
+  ],
+  "responses": [
+    "The foreign languages spoken in Morocco include English and Spanish."
+  ],
+  "context": [""]
+},
+{
+  "tag": "Morocco Spoken Languages",
+  "patterns": [
+    "What are the spoken languages in Morocco?",
+    "Tell me about the languages spoken in Morocco."
+  ],
+  "responses": [
+    "The spoken languages in Morocco include Moroccan Arabic, Hassaniya Arabic, Berber, and French."
+  ],
+  "context": [""]
+},
+{
+  "tag": "Morocco Official Languages",
+  "patterns": [
+    "What are the official languages of Morocco?",
+    "Tell me about the official languages in Morocco."
+  ],
+  "responses": [
+    "The official languages of Morocco are Arabic and Amazigh."
+  ],
+  "context": [""]
+},
+{
+  "tag": "Morocco Largest City",
+  "patterns": [
+    "What is the largest city in Morocco?",
+    "Tell me about the largest city of Morocco."
+  ],
+  "responses": [
+    "The largest city in Morocco is Casablanca. It is situated at 33°32′N 7°35′W."
+  ],
+  "context": [""]
+},
+{
+  "tag": "Morocco Capital",
+  "patterns": [
+    "What is the capital of Morocco?",
+    "Tell me about the capital city of Morocco."
+  ],
+  "responses": [
+    "The capital of Morocco is Rabat. It is a vibrant city located at 34°02′N 6°51′W."
+  ],
+  "context": [""]
+},
+{
+  "tag": "Moroccan national football team Captain",
+  "patterns": [
+    "Who is the captain of the Moroccan national football team?",
+    "Tell me about the captain of the Moroccan football team."
+  ],
+  "responses": [
+    "The current captain of the Moroccan national football team is Romain Saïss."
+  ],
+  "context": [""]
+},
+{
+    "tag": "Code for method declaration",
+    "patterns": [
+      "What does this code mean: public void methodName() { // Code here }",
+      "Explain the purpose of this code: public int calculateSum(int a, int b) { // Code here }"
+    ],
+    "responses": [
+      "This code is used to declare a method in C#. It specifies the access modifier, return type, method name, and any parameters."
+    ],
+    "context": [""]
+  },
+  {
+    "tag": "Code for variable declaration",
+    "patterns": [
+      "What does this code mean: int number = 10;",
+      "Explain the purpose of this code: string name = \"John\";"
+    ],
+    "responses": [
+      "This code is used to declare and initialize a variable in C#. It assigns a value to the variable of a specific data type."
+    ],
+    "context": [""]
+  },
+  {
+    "tag": "Code for conditional statement",
+    "patterns": [
+      "What does this code do: if (condition) { // Code here }",
+      "Explain the purpose of this code: if (x > 5) { // Code here }"
+    ],
+    "responses": [
+      "This code represents a conditional statement in C#. It evaluates a condition and executes the code block if the condition is true."
+    ],
+    "context": [""]
+  },
+  {
+    "tag": "Code for loop",
+    "patterns": [
+      "What is the purpose of this code: for (int i = 0; i < 10; i++) { // Code here }",
+      "Explain the meaning of this code: while (condition) { // Code here }"
+    ],
+    "responses": [
+      "This code is used to create a loop in C#. It allows repeating a block of code multiple times based on a specified condition."
+    ],
+    "context": [""]
+  },
+  {
+    "tag": "Code for object instantiation",
+    "patterns": [
+      "What does this code mean: ClassName obj = new ClassName();",
+      "Explain the purpose of this code: Person person = new Person();"
+    ],
+    "responses": [
+      "This code is used to instantiate an object in C#. It creates an instance of a class and assigns it to a variable."
+    ],
+    "context": [""]
+  }
+
+    ]
+}

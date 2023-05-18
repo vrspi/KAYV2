@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "tag": "Opening Hours",
+      "patterns": [
+        "What are the opening hours?",
+        "When are you open?",
+        "What are your hours of operation?"
+      ],
+      "responses": [
+        "Our opening hours during summer are from Monday to Thursday, 9:30 AM to 3:30 PM.",
+        "On Fridays, we are open from 9:30 AM to 1:00 PM."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Social Media",
+      "patterns": [
+        "Do you have social media accounts?",
+        "What are your social media handles?",
+        "Can I find you on social media?"
+      ],
+      "responses": [
+        "Yes, you can follow us on EheiOujda and find us at @eheioujda.",
+        "Connect with us on social media! You can find us as EheiOujda and @eheioujda."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Contact Information",
+      "patterns": [
+        "How can I contact you?",
+        "What is your contact information?",
+        "Do you have an email or phone number?"
+      ],
+      "responses": [
+        "You can contact us at ehei.oujda@gmail.com or call us at +212536533076.",
+        "For any inquiries, feel free to reach out to us at ehei.oujda@gmail.com or call us at +212536533076."
+      ],
+      "context": [""]
+    }
+  ]
+}
