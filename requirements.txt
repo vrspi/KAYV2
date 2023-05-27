@@ -1,7 +1,7 @@
 Flask==2.0.1
 nltk==3.6.2
 spacy==3.0.6
-keras==2.4.3
+keras==2.9.0
 numpy==1.19.5
 google==3.0.0
 billboard.py==7.0.0
@@ -10,5 +10,5 @@ COVID19Py==0.3.0
 urllib3==1.26.6
 beautifulsoup4==4.12.2
 click==7.1.2
-tensorflow==2.11.1
+tensorflow==2.10.0
 protobuf==3.20.0
