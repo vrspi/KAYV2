@@ -1,0 +1,11 @@
+Flask==2.0.1
+nltk==3.6.2
+spacy==3.0.6
+keras==2.4.3
+numpy==1.19.5
+google==3.0.0
+billboard.py==9.2.0
+pygame==2.0.1
+COVID19Py==1.4.1
+urllib3==1.26.6
+beautifulsoup4==4.9.3
