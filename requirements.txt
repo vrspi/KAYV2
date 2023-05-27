@@ -9,3 +9,5 @@ pygame==2.0.1
 COVID19Py==0.3.0
 urllib3==1.26.6
 beautifulsoup4==4.12.2
+click==7.1.2
+
