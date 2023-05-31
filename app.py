@@ -172,23 +172,23 @@ def get_response(return_list,intents_json):
         time.sleep(float(x)*60)
         mixer.music.load('Handbell-ringing-sound-effect.mp3')
         mixer.music.play()  
-    if tag=='covid19':
-        covid19=COVID19Py.COVID19(data_source='jhu')
-        country=input('Enter Location...')
-        if country.lower()=='world':
-            latest_world=covid19.getLatest()
-            print('Confirmed:',latest_world['confirmed'],' Deaths:',latest_world['deaths'])
-        else:     
-            latest=covid19.getLocations()
-            latest_conf=[]
-            latest_deaths=[]
-            for i in range(len(latest)):
-                if latest[i]['country'].lower()== country.lower():
-                    latest_conf.append(latest[i]['latest']['confirmed'])
-                    latest_deaths.append(latest[i]['latest']['deaths'])
-            latest_conf=np.array(latest_conf)
-            latest_deaths=np.array(latest_deaths)
-            print('Confirmed: ',np.sum(latest_conf),'Deaths: ',np.sum(latest_deaths))
+#     if tag=='covid19':
+#         covid19=COVID19Py.COVID19(data_source='jhu')
+#         country=input('Enter Location...')
+#         if country.lower()=='world':
+#             latest_world=covid19.getLatest()
+#             print('Confirmed:',latest_world['confirmed'],' Deaths:',latest_world['deaths'])
+#         else:     
+#             latest=covid19.getLocations()
+#             latest_conf=[]
+#             latest_deaths=[]
+#             for i in range(len(latest)):
+#                 if latest[i]['country'].lower()== country.lower():
+#                     latest_conf.append(latest[i]['latest']['confirmed'])
+#                     latest_deaths.append(latest[i]['latest']['deaths'])
+#             latest_conf=np.array(latest_conf)
+#             latest_deaths=np.array(latest_deaths)
+#             print('Confirmed: ',np.sum(latest_conf),'Deaths: ',np.sum(latest_deaths))
     list_of_intents= intents_json['intents']    
     for i in list_of_intents:
         if tag==i['tag'] :
